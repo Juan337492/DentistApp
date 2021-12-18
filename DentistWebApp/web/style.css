@@ -1,0 +1,108 @@
+#container {
+    position: relative;
+}
+#homeImage  {
+    width: 100%;
+    height: auto;
+}
+.pageLinks  {
+    color: white;
+    font-size: 2rem;
+    position: absolute; 
+    z-index: 1; 
+}
+.homeHeader {
+    position: absolute; 
+    z-index: 1; 
+    left: 30%; 
+    bottom: 60%; 
+    color: white; 
+    font-size: 10rem;
+}
+.headerStandard {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3em;
+}
+/* Button styling */
+.buttonContainer    {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+}
+.btnStyling {
+    font-size: 1.5rem;
+    margin: 1em;
+    color: white;
+    background: #5a9dc4;
+    border-radius: 12px;
+    padding: 1rem;
+}
+/* Nav bar styling starts */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5a9dc4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Nav bar styling ends*/
+/* Data styling*/
+.accountData{
+    border: 1px black solid;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.dataP  {
+    color: #5a9dc4;
+}
+/* login styling */
+.loginPrompt    {
+    border-style: solid;
+    border-width:1px;
+    padding-bottom: 4em;
+}
+.loginHeader    {
+    margin-left: 45%;
+    margin-top: 5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em; 
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.loginForm  {
+    margin-left: 45%;
+    color:white;
+    margin-top: 3em;
+    font-size: 20px;
+}
+
+/* Error jps styling starts*/
+#errorHeader    {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5em;
+}
+
+/* Error jps styling ends*/
